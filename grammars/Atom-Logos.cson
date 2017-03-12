@@ -1,0 +1,32 @@
+# If this is your first time writing a language grammar, check out:
+#   - http://manual.macromates.com/en/language_grammars
+
+'scopeName': 'source.Atom-Logos'
+'name': 'Atom-Logos'
+'fileTypes': [
+		'xm',
+		'x',
+		'xi',
+		'xmi'
+]
+'patterns': [
+  {
+    'match': '%(init|hook|subclass|group|class|new|ctor|dtor|end|config|orig|log)'
+    'name': 'keyword.source.logos'
+  },
+  {
+    'captures':{
+      1:{
+        'name':'keyword.source.logos'
+      }
+    }
+    'match':'%c\(([A-Za-z$_]+)\)'
+
+  },
+  {
+  'include':'source.objc'
+  },
+  {'include':'source.c++'
+
+  }
+]

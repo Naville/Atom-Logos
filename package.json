@@ -1,0 +1,14 @@
+{
+  "name": "language-Logos",
+  "version": "0.0.1",
+  "description": "Logos Syntax Highligher",
+  "keywords": [
+    "language",
+    "grammar"
+  ],
+  "repository": "https://github.com/Naville/Atom-Logos",
+  "license": "GPL",
+  "engines": {
+    "atom": ">=1.0.0 <2.0.0"
+  }
+}
